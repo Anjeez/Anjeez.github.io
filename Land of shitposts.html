@@ -1,0 +1,108 @@
+<html><head><title>Land of shitposts!</title>
+</head><body><h1>Angelo's land of shitposts!</h1>
+<h2>Dating age calculator</h2>
+<p>Enter two ages</p>
+<form name="hrt">
+<input type="textfield" id="age1">
+<input type="textfield" id="age2">
+<input type="button" value="Go" onclick="hrtcd();">
+<br>Minimum older age is <input id="output" type="text" value="" />
+</form>
+<script type="text/javascript" id="hrtcd">
+function hrtcd() {
+var age1=document.getElementById("age1").value
+var age2=document.getElementById("age2").value 
+var difference=Math.abs(age1-age2)
+var olderage=2*difference+14
+document.getElementById("output").value = olderage;}</script>
+<h2>random shit cpypst calc</h2>
+<form name="calculator" >
+<input type="button" value="1" onClick="document.calculator.ans.value+='1'">
+<input type="button" value="2" onClick="document.calculator.ans.value+='2'">
+<input type="button" value="3" onClick="document.calculator.ans.value+='3'"><br>
+<input type="button" value="4" onClick="document.calculator.ans.value+='4'">
+<input type="button" value="5" onClick="document.calculator.ans.value+='5'">
+<input type="button" value="6" onClick="document.calculator.ans.value+='6'">
+<input type="button" value="7" onClick="document.calculator.ans.value+='7'"><br>
+<input type="button" value="8" onClick="document.calculator.ans.value+='8'">
+<input type="button" value="9" onClick="document.calculator.ans.value+='9'">
+<input type="button" value="-" onClick="document.calculator.ans.value+='-'">
+<input type="button" value="+" onClick="document.calculator.ans.value+='+'"><br>
+<input type="button" value="*" onClick="document.calculator.ans.value+='*'">
+<input type="button" value="/" onClick="document.calculator.ans.value+='/'">
+
+<input type="button" value="0" onClick="document.calculator.ans.value+='0'">
+<input type="reset" value="Reset">
+<input type="button" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+<br>Solution is <input type="textfield" name="ans" value="">
+</form>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Number guessing game</title>
+
+    <link rel="stylesheet" href="">
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+      <h1>Number guessing game</h1>
+<p id="guesses"></p>
+<p id="lastResult"></p>
+<p id="lowOrHi"></p>
+
+<div class="form">
+  <label for="guessField">Enter your next guess: </label><input type="text" id="guessField">
+  <button id="guessSubmit">Enter Guess</button>
+</div>
+
+<p></p>
+  </body>
+
+  <script>
+ var randomNumber = Math.floor(Math.random() * 100) + 1;
+var guesses = document.getElementById("guesses");
+var lastResult = document.getElementById("lastResult");
+var lowOrHi = document.getElementById("lowOrHi");
+var guessSubmit = document.getElementById("guessSubmit");
+var guessField = document.getElementById("guessField");
+var guessCount = 1;
+function checkGuess() {
+  var userGuess = Number(guessField.value);
+  guesses.innerHTML += userGuess + " ";
+  if(guessCount == 10) {
+    lastResult.innerHTML = "!!!GAME OVER!!!";
+    disableForm();
+  } else {
+    
+    if(userGuess == randomNumber) {
+      lastResult.innerHTML = "Congratulations! You got it right!";
+      lowOrHi.innerHTML = "";
+      disableForm();
+    } else {
+      lastResult.innerHTML = "Wrong!";
+      if(userGuess < randomNumber) {
+        lowOrHi.innerHTML = "Your guess is too low!";
+      } else if(userGuess > randomNumber) {
+        lowOrHi.innerHTML = "Your guess is too high!";
+      }
+    }
+    guessCount++;
+    guessField.value = "";
+  }
+}
+function disableForm() {
+  var wholeForm = document.querySelector(".form"); // grab a reference to the whole form (the contents of the div with class form)
+  wholeForm.style.opacity = 0.5; // change the opacity of the form to 0.5
+  guessField.setAttribute("disabled", "disabled");
+  guessSubmit.setAttribute("disabled", "disabled"); // disable the form field and submit button so they can no longer be used
+}
+guessSubmit.onclick = checkGuess;
+  </script>
+<a href="file:///C:/Users/adelacruz/Desktop/Websites/Anjeez_Homepage.html">Back to Home</a>
+
+</body></html>

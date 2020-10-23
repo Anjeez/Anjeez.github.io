@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>Grammars</title>
+</head>
+<body style='background-color:black;font-family:"courier new";color:green'>
+Here are some grammars I made. They're not full out languages. Just skeletons.
+<h1>Triconsonantal root grammar</h1>
+<p>CaC-C noun</p>
+
+<p>CaCaC nominative<br>
+CaCoC accusative<br>
+CaCeC genetive<br>
+CaCiC locative<br>
+CaCuC instrumental</p>
+
+<p>CoC-C verb</p>
+
+<p>CoCaC present<br>
+CoCoC past<br>
+CoCeC imperfect<br>
+CoCiC future<br>
+CoCuC conditional</p>
+
+<p>CeC-C adjective</p>
+
+<p>CeCaC adjective<br>
+CeCoC adverb<br>
+CeCeC adposition<br>
+CeCiC determiner<br>
+CeCuC conjunction</p>
+
+<p>iC-C-C 1SGSBJ<br>
+uC-C-C 1PLSBJ<br>
+eC-C-C 2SGSBJ<br>
+oC-C-C 2PLSBJ<br>
+&nbsp;C-C-C 3SGSBJ<br>
+aC-C-C 3PLSBJ</p>
+
+<p>C-C-Ci 1SGOBJ<br>
+C-C-Cu 1PLOBJ<br>
+C-C-Ce 2SGOBJ<br>
+C-C-Co 2PLOBJ<br>
+C-C-C &nbsp;3SGOBJ<br>
+C-C-Ca 3PLOBJ</p>
+
+<p>CiCi...CiC-C number</p>
+
+<p>CiCaC cardinal<br>
+CiCoC ordinal<br>
+CiCeC fractional<br>
+CiCiC distributive<br>
+CiCuC multiplier</p>
+</body>
+</html>

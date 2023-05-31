@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>Is your IP Evil or Odious?</title>
+    <style>
+    body {background-color: black;}
+    p, h1 {
+        color: white;
+    }
+    </style>
+  
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+     
+      <script>
+
+ 
+// Check if number is evil or not
+function checkEvil(n)
+{
+    let i = 0, c_one = 0;
+ 
+    // Calling the count_one function to count
+    // and return number of 1s in bin
+     
+    while (n != 0)
+    {
+        let rem = n % 2;
+ 
+        // Counting 1s
+        if (rem == 1)
+            c_one = c_one + 1;
+             
+        n = parseInt(n / 2, 10);
+    }
+     
+    if (c_one % 2 == 0)
+        return 1;
+    else
+        return 0;}
+    /* Add "https://api.ipify.org?format=json" statement
+               this will communicate with the ipify servers in
+               order to retrieve the IP address $.getJSON will
+               load JSON-encoded data from the server using a
+               GET HTTP request */
+                
+    $.getJSON("https://api.ipify.org?format=json", function(data) {
+         
+        var a
+        a = data.ip
+        b = a.split(".");
+        ia=b[0]*16777216+b[1]*65536+b[2]*256+b[3]
+        if (checkEvil(ia)){
+          $("#gfg").html("Your IP address is <b>EVIL</b>");
+        } else {
+          $("#gfg").html("Your IP address is <b>ODIOUS</b>");
+        }
+    })
+    </script>
+</head>
+ 
+<body>
+    <center>
+        <h1>Is your IP Evil or Odious?</h1>
+        <p id="gfg"></p>
+        <br>
+        <p>click <a href="https://en.wikipedia.org/wiki/Evil_number"> Here</a> to understand what the f*ck I'm talking about</p>
+    </center>
+</body>
+ 
+</html>

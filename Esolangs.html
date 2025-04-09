@@ -1,0 +1,112 @@
+<html>
+<head>
+<title>Programming languages</title>
+</head>
+<body style='background-color:black;font-family:"courier new";color:green'>
+Some programming languages I made
+<h1>Yumefuck/Dreamfuck</h1>
+<p>A turing tarpit. It has a single memory cell and an infinite tape of cells</p>
+
+<p>a adds m to the current cell<br>
+s moves the pointer left<br>
+d moves the pointer right<br>
+f puts the number in memory into the pointer cell, and clears memory<br>
+g gets number from input and stores it in the current cell<br>
+h does the cryptoleq operation O1(m,k)  x^-1ymod59051 (if the value is 59049 or 59050, it sets to 0)<br>
+j put number into the memory cell, but does not clear the pointer cell<br>
+k performs the <a href="https://en.wikipedia.org/wiki/Malbolge#Crazy_operation">crazy operation</a> between the memory and the pointer cell<br>
+l outputs the current cell as a character from Unicode. Does not clear the pointer cell<br>
+; puts pointer back m instructions if the pointer cell is zero. Does not clear the memory cell</p>
+<p>All other symbols are no-ops. It is also case insenitive, so A and a both add</p>
+
+<h2>Hello World Program</h2>
+
+<p>kjhjajajajajajadkjhjsadjsadjsadjsadjsadjsadjsadjsal<br>
+ddkjajssaddjssaddjssal<br>
+djsadjsadjsadjsadjsadjsadjsall<br>
+djsadjsadjsal<br>
+djddajajajajajal<br>
+sssjdddfjssjddassjddassjddassjddassjddassjddassjddassjddal<br>
+sssldjsadjsadjsal<br>
+ddjssaddjssaddjssaddjssaddjssaddjssal<br>
+ddjajajajssal</p>
+
+<h2>Truth Machine</h2>
+
+<p>kjajajajajajdfjajsadffkjajsadgjsaddkjhjajajss<br>
+dls;</p>
+
+<p>Download link for intepreter</p>
+
+<h1>Beerlang</h1>
+<p>A machine that prints out beer programs and nothing else</p>
+
+<p>Programs are of this form</p>
+
+<p>
+b0 = <a style="color:#808080;">{The initial amount of bottles. If left blank, then the program takes user input}</a><br>
+halt = <a style="color:#808080;">{If the current number of bottles reaches this point, then the program stops}</a><br>
+<a style="color:#808080;">{This part is the main part of the program used to calculate the next }</a>
+
+</p>
+
+<p>To end the verse, you use the sing keyword in this form:<br>
+sing <a style="color:#808080;">{Number of bottles}</a><br>
+By default, this would print "Take <a style="color:#808080;">{Current number minus new value}</a> down, pass it round" if the new value is less than the current, or "Place <a style="color:#808080;">{New value minus current value}</a> down, go to town" is greater. If you want to change it, you use this<br>
+sing "<a style="color:#808080;">{The new verse, with the formula of the new number of bottles surrounded by braces in the place of the correspondning line}</a>"<br>
+If the iteration is run without hitting the sing keyword, then the default is the current number of bottles minus one.<br>
+
+<p>Valid keywords</p>
+<p>i b &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|Default variables. i is the current verse number (starting from 0) and b is the current number of bottles<br>
+= &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|Used to assign and define new variables. You are unable to use this with i or b<br>
++ - * / % &nbsp&nbsp&nbsp&nbsp&nbsp|Arithmetic operations<br>
+if else end &nbsp&nbsp&nbsp|Flow control. End is used to end if statements<br>
+== != > >= < <=|Comparison<br>
+and or &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|Booleans<br>
+sing &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|See above</p>
+<p> You are also allowed to use parentheses to reduce ambiguity</p>
+
+<h2>Traditional Beer Program</h2>
+<p>
+b0 = 99<br>
+halt = 0<br>
+sing b-1
+
+<h2>Output</h2>
+99 bottles of beer on the wall<br>
+99 bottles of beer<br>
+Take 1 down, pass it round<br>
+98 bottles of beer on the wall<br>
+<br>
+<a style="color:#808080;">...</a><br>
+<br>
+2 bottles of beer on the wall<br>
+2 bottles of beer<br>
+Take 1 down, pass it round<br>
+1 bottle of beer on the wall<br>
+<br>
+1 bottle of beer on the wall<br>
+1 bottle of beer<br>
+Take 1 down, pass it round<br>
+No more bottles of beer on the wall<p>
+
+<h2>Truth Machine</h2>
+<p>
+b0 =<br>
+halt = 0<br>
+sing b
+
+<h2>Fibonacci Numbers</h2>
+<p>
+b0 = 1<br>
+halt = -1<br>
+if i == 0<br>
+&nbsp a = 0<br>
+&nbsp sing b<br>
+end<br>
+c=b+a<br>
+a=b<br>
+sing c</p>
+
+</body>
+</html>

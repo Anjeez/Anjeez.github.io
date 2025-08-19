@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>T3-EY - More Curses Here: Explained</title>
+<style>
+body {
+    background-image: url("https://yangsy56302.github.io/style/tutotile.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-color: #000;
+    color: #FFF;
+    font-family: 'Calibri';
+}
+h1 {text-align: center;}
+h2 {text-align: center;}
+a:link, a:link * {
+    color: #00F;
+}
+a:visited, a:visited * {
+    color: #F00;
+}
+a:hover, a:hover * {
+    color: #0FF;
+}
+</style>
+</head>
+<body>
+
+<h1>T3-EY - More Curses Here: Explained</h1>
+<p>Every curse in <a href="https://www.youtube.com/watch?v=QA9aEeIcU28">Yangsy's No Hints Here EX String Curse</a>, explained in my own terms</p>
+
+<h2>"T3-E1" - Warm up!!! but the given curses are halved</h2>
+<p><b>Personal Curse Name:</b> Halfcurse</p>
+<p>The affected curse only activates 50% of the time. The example used is <b>"B-X" - Thanks for Playing my Game but each tile will be played twice</b> (Twicer), meaning that every other tile will be played twice</p>
+
+<h2>"T3-E2" - Holds and Midspins!!! but the first one makes you faster and the second one shorter</h2>
+<p><b>Personal Curse Name:</b> FastHoldSlowSpin</p>
+<p>Exactly what it says on the title</p>
+
+<h2>"T3-E3" - Don't miss a shot!!! but I failed to figure out the length of the straight segments</h2>
+<p><b>Personal Curse Name:</b> Unknown Length</p>
+<p>Each straight section has a random amount of tiles</p>
+<h3>Additional curses</h3>
+<p><b>11-EX* - Heracles (Quree Remix) but the enclosed shapes are upside down</b> (LANDMINE XI-E UPSIDE DOWN): More or less self explanatory</p>
+<p><b>10-EX* - Butterfly Planet (Kotdari Remix) the midspins are taking over all the enclosed shapes</b> (LANDMINE X-E SHAPESPIN): Some tiles of enclosed shapes are replaced with midspins such that it isn't enclosed anymore</p>
+
+<h2>"T3-E4" - Tricky Triangles!!! but it reverses the order of tiles in each loop</h2>
+<p><b>Personal Curse Name:</b> Revloop</p>
+<p>Enclosed loops are reflected, complete with gameplay events. With the inclusion of the below curses, it is barely different from the original.</p>
+<h3>Additional curses</h3>
+<p><b>"10<a style="color:#F00">+</a>X" - Butterfly Planet but okay, maybe some reflex angles for you</b> (Voluntary Reflex): The anticurse of the below curse. Changes some acute angles with obtuse angles with twirls</p>
+<p><b>"10-X" - Butterfly Planet but no more reflex angles for you</b> (Involuntary Reflex): Places twirls in a way such that obtuse angles are now acute angles/p>
+
+
+<h2>"T3-E5" - High Fives!!! but the midspins are mirrored</h2>
+<p><b>Personal Curse Name:</b> Revspin</p>
+<p>Like "T3-E4", but with a single midspin containing tile.</p>
+<h3>Additional curses</h3>
+<p><b>"T2-EX": sing sing <a style="color:#f00">red</a> <a style="color:#00f">indigo</a> but the special midspins changes the planet counts</b> (Midplanetz): Fire Midspin = Triple Planets, Ice Midspin = Double Planets, Star Midspin = Swap To Another Count For Planets.</p>
+
+<h2>"T3-E6" - Collect 3!! but the freeroam isn't free anymore</h2>
+<p><b>Personal Curse Name:</b> Constraint</p>
+<p>Unlike Predestiny ("T3-X"), this can only change a freeroam segment into a non-freeroam segment</p>
+<h3>Additional curses</h3>
+<p><b>[11-X]: Heracles but tiles are external</b> (Outie): Loops are traversed via their exterior as opposed to their interior</p>
+
+
+<h2>"T3-E7" - Remember this!! but you should have remembered this a long time ago</h2>
+<p><b>Personal Curse Name:</b> Invis</p>
+<p>It makes the track invisible</p>
+<h3>Additional curses</h3>
+<p><b>"XO-1": U-Turn Road but all the existence states of swirls on u-turns are inverted</b> (Utwirl): For each 360° tiles, if there is no swirl on it, add one; otherwise remove the swirl.</p>
+<p><b>"T4-EX": Third sun but the midspins are from Australia</b> (Ozspin): Midspins are now on the other side of the track</p>
+
+<h2>"T3-E8" - Warp Tiles!! but there's a hard limit to the value in minimum for the angle of tiles</h2>
+<p><b>Personal Curse Name:</b> Lower Bound</p>
+<p>If a tile has an angle below a certain angle (In this case, 90)°, then it changes to that angle</p>
+
+<h2>"T3-E9" - Answer!! but pauses are malfunctioning</h2>
+<p><b>Personal Curse Name:</b> Unpause</p>
+<p>Removes pauses. This level introduces a new notation based on function application</p>
+<h3>Additional curses</h3>
+<p><b>Love Nest:</b> Miss Qing is there</p>
+
+<h2>T3-10 - Speedy Floors!! but there's a hidden twirl behind every setspeed with icon</h2>
+<p><b>Personal Curse Name:</b> Swirlbit</p>
+<p>If there's a rabbit or snail on the tile, a twirl is added</p>
+<h3>Additional curses</h3>
+<p><b>11<a style="color:#F00">+</a>X?: Heracles but there aren't any twirls</b> (NoTwirls): The anticurse of <b>11-X? - Heracles but there's a twirl on every tile</b>. Removes twirls</p>
+<p><b>"XC-X": Credits but it's tutorial exclusive</b> (Toriel): Changes to a tutorial</p>
+<p><b>"XC+X": Credits but it's main-level exclusive</b> (Toriel): Changes tutorials to a main level, in this case to New Life</p>
+<p><b>-2-X: Offbeats but 180 degrees away increases bpm by number of degrees away from previous 180 degrees:</b> For every straight tile, a value increases. When a non-straight angle appears, the BPM increases by that value</p>
+<p><b>2-X&lt;: Every offbeats will increase your BPM</b> (Tachycardia): Similar to 6-X? Applied five times</p>
+
+
+
+<h2>"T3-E11" - Drifting Floors!! but it reverses the order for tiles between horizontal segments</h2>
+<p><b>Personal Curse Name:</b> Flip</p>
+<p>Same as Revhold and Revspin, but for vertical sections</p>
+<h3>Additional curses</h3>
+<p><b>5-X&amp;: The Midnight Train but you gotta account for every beat</b> (Extranome): Midspins are added on every onbeat.</p>
+
+<h2>"T3-E12" - Drunk Rhythms!! but the amount of precision for tiles is π/4 (rounds up)</h2>
+<p><b>Personal Curse Name:</b> Quantize</p>
+<p>The angle for every tile changes to the lowest multiple greater than or equal to 90° the original angle</p>
+<h3>Additional curses</h3>
+<p><b>{7-X}: Spin 2 win but swirls are for losers</b> (NoTwirls): Similar to XC-X? but it recharts the level without changing the music.</p>
+
+<h2>"T3-E13" - Defend the castle!! but the title can tell you what's going on </h2>
+<p><b>Personal Curse Name:</b> Explain</p>
+<p>Whatever curse is affected gets displayed to the title. This section uses Artificial Chariot instead of the usual Defend the Castle section, brought by <b>4-X? - Love Letters but you keep having nightmares to Classic Pursuit</b> (Night), though <b>"MO-X" - EMOMOMO after you meet a tile thats &gt;180° the speed should be doubled compared to tiles &lt;180°</b> (Fast Reflex) smoothens the transition</p>
+<p>Note that curses not displayed by "T3-E14" will be in grey.</p>
+<h3 text-align: center;>1-X!(12-X): Artificial chariot but all right angles are twirled midspin</h3>
+<p>I don't name the Danger curses. Three point twirls are replaced with midspins with a twirl. Similar to 6-XXX, but with twirls</p>
+<h3 text-align: center;>6-XXX(MN-X!(12-X)): Artificial chariot but it always been upward <a style="color:#bbb">(+Midspins.zip)</a></h3>
+<p><b>Personal Curse Name:</b> Codename: Midspins (6-XXX)</p>
+<p><b>MN-X!:</b> The level is recharted so that no tiles point downwards.</p>
+<p><b>6-XXX:</b> Three point turns are replaced with midspins. Similar to 1-X! but without the twirls</p>
+<h3 text-align: center;>9-X!(12-X): Artificial chariot but all loops are squares</h3>
+<p>Every enclosed shape is turned into a square</p>
+<h3 text-align: center;>-3-X(9-X!(12-X)): Artificial chariot <a style="color:#bbb">but all loops are squares</a> but each three-point turn generates a tile on the tile right after it ends</h3>
+<p><b>-3-X:</b> No explanation necessary</p>
+<h3 text-align: center;>&lt;7-X3(-3-X(9-X!(12-X))): Artificial chariot <a style="color:#bbb">but all loops are squares</a> but each three-point turn generates a tile on the tile right after it ends but the twirl tiles and the other tiles are swapped</h3>
+<p><b>Personal Curse Name:</b> Twirlswap (&lt;7-X3)</p>
+<p><b>&lt;7-X3:</b> If it's a twirl, then it's removed, and if there's no twirl, it is added. Like "XO-1" but for all tiles.</p>
+
+<h2>"T3-E14" - Fog!! but there's an extra 180° tile for each amount of tiles passed</h2>
+<p><b>Personal Curse Name:</b> Reoccuring</p>
+<p>Every n tiles, in this case, n=3, an extra tile gets added</p>
+<h3>Additional curses</h3>
+<p><b>"T3-E7": Remember this!! but you should have remembered this a long time ago</b></p>
+<p><b>XC-X?: Credits but the twirls are missing</b> (NoTwirls): Similar to {7-X} but without the rechart.</p>
+<p><b>11-X?: Heracles but there's a twirl on every tile</b> (AllTwirls): This barges in. Applied before "T3-E14"</p>
+<p><b>"XO-X": One forgotten night but all the existence states of swirls on u-turns/180° tiles are inverted</b> (Utwirl and Stwirl): Its official title is <b>One Forgotten Night but its curse is defined as a combination of XO-1 </b>(all the existence states of swirls on u-turns are inverted)<b> and XO-2</b>(all the existence states of swirls on 180° tiles are inverted), hence why there are two names.</p>
+
+<h2>"T3-E15" - Disappearing Floor!! but the planet would step on the 1st tile on its orbit as long as that tile is located after the tile it stays on</h2>
+<p><b>Personal Curse Name:</b> Sapnap</p>
+<p>I call it Sapnap due to the similar curse "XF-X" being called Dream. I don't know if Sapnap speedruns or how well he does</p>
+<h3>Additional curses</h3>
+<p><b>6-X*: PULSE but triple planets &amp; original track</b> (LANDMINE VI WIND): There are three planets without changing the chart.</p>
+
+<h2>"T3-E16" - Answer!! Again!! but each pause beat generates an 180° tile after it</h2>
+<p><b>Personal Curse Name:</b> Extra Beats</p>
+<p>For each beat of pausing, an extra tile is added afterwards</p>
+<h3>Additional curses</h3>
+<p><b>"XO-X": One Forgotten Night but its curse is defined as a combination of XO-1 and XO-2</b></p>
+<p><b>"T3-E7": Remember this!! but you should have remembered this a long time ago</b></p>
+<p><b>"XR-X": Rose Garden but each 90° tile belongs to a triangle</b> (TrightAngle): If a right angle isn't part of a triangle, then add one.</p>
+<p><b>"T3-E9": Answer!! but pauses are malfunctioning</b></p>
+
+<h2>"T3-E17" - Avoid Being Spotted!! but each continuous turnarounds repeats the section until the next turnaround for each of turnarounds here</h2>
+<p><b>Personal Curse Name:</b> Turnloop</p>
+<p>Turnarounds themselves wouldn't be repeated. Also, it uses absolute angle. So if a tile is facing east, the duplicated tile would also face east</p>
+<h3>Additional curses</h3>
+<p><b>"XR-X": Rose Garden but each 90° tile belongs to a triangle</b></p>
+<p><b>[12-X]: Artificial Chariot but every 90 tile has a triangle, repeated ones don't</b> (OnceTrightAngle): Similar to "XR-X", but it adds an equilateral triangle instead, and it also counts right angles already in triangles. Also, multiple right angles in a row don't get this treatment</p>
+<p><b>12-X*: Artificial Chariot but there's way too many squares</b> (LANDMINE XII SQUARE): Self explanatory.</p>
+<p><b>2-X?: Offbeats but it's a little longer</b> (Loonger I): Longer...</p>
+<p><b>1-X*: A Dance of Fire and Ice but right angles turns into turnarounds</b> (LANDMINE I TURNAROUND): Also self explanatory. When "T3-17" comes in, it only affects this curse.</p>
+<p><b>XM-X*: Miko Skip but the turnarounds are gone</b> (LANDMINE M UNAROUND): Removes U-turn, once again, only those affected by 1-X*.</p>
+
+<h2>"T3-E18" - Tricky Triangles... Two!! but the 1st numerical value would be incresed by 1</h2>
+<p><b>Personal Curse Name:</b> Increment</p>
+<p>When applied to normal levels, but the world ID and the level ID will be incremented, for example 5-1 becomes 6-2. In the description of a curse, the first number it encounters (can be anything from cardinals to ordinals to even words like "triple" or "a pair") gets incremented, but it doesn't change the level ID. At the beginning of the level, it affects <b>[7-X] - Spin 2 Win but you have only 1 extra 180° tile</b> (One Straight) three times, making it "Three Straights" instead and having three tiles for every straight section</p>
+<p><b>&lt;XF-X3: Third Wave Flip Flop but 180° are holds</b> (Straight Hold): Affected by "T3-E1", so it's every other.</p>
+<p><b>"T1-EX": NEW LIFE but every hold is now 1 loop longer</b> (OtherLoop): Also affected by "T3-E1".</p>
+<p><b>10-X*: Butterfly Planet but the judgement limit is changing</b> (LANDMINE X JUDGEMENT): Changes the judgement. Also applied three times to create a "Pure Pure Pure Perfect", something I didn't even know was possible.</p>
+<p><b>"1-X": A Dance of Fire and Ice but the judgement limit is changing</b> (Yukina): Does the same thing as the above, and also ALMOST the same thing as C1-X? which is why I call it that.</p>
+<p><b>"T3-E18"("T3-E18")(&lt;6-X3): PULSE but two planets but quadruple planets tile</b> (Quadrupler): Edited from <b>&lt;6-X3 - PULSE but two planets but triple planets' tiles</b> (Tripler) by means of <b>"T3-E18"("T3-E18") - Tricky Triangles... Two!! but the 2nd numerical value would be incresed by 1</b>, itself a self edited version of "T3-18". Helpfully annotated by...</p>
+<p><b>"T3-E13" - Defend the castle!! but the title can tell you what's going on </b></p>
+
+<h2>"T3-E19" - Almost there! Don't get distracted! But all angles are multiplied by a number</h2>
+<p><b>Personal Curse Name:</b> Multiply</p>
+<p>All angles are multiplied by a certain number and then moduloed by 360. This doen't get used at all in this section</p>
+<h3>Additional curses</h3>
+<p><b><a style="color:#FFF600">#FFF600</a>(XT-X): Options but there is no part that is too fast or too slow</b> (Yellow): All sections that aren't the normal BPM are removed</p>
+<p><b>6-X&lt;: PULSE but the rhythm of less than one beat has become a midspin</b> (Acutespin): If a tile is less than one beat long, the next tile is turned into a midspin.</p>
+<p><b>"T2-X": sing sing <a style="color:#f00">red</a> <a style="color:#00f">indigo</a> but the special midspins changes your speed</b> (Midrabbitz): Fire Midspin = Faster, Ice Midspin = Slower.</p>
+<p><b>"3-X": THE WIND-UP but each straight line makes you more laggy</b> (Lag): After every set of straight tiles, some number of extra straight tiles gets added to the end, and this value increases by 1 for every set of straight tiles. This value usually begins at 0, but in this case it starts at 1 instead.</p>
+<p><b>4-X? - Love Letters but you keep having nightmares to Classic Pursuit:</b> This doesn't actually appear, but the current level text takes you to sing sing <a style="color:#f00">red</a> <a style="color:#00f">indigo</a> EX, and then to <b>Spin 2 Win but each reflex angled tile will speed you up &amp; vice versa</b> (Speedangle)</p>
+
+<br>
+<p>The ending section gets cursed as No Hints Here (Standalone), but frankly I don't want to annotate all the curses.</p>
+</body>
+</html>
